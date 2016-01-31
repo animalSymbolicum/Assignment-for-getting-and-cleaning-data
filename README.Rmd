@@ -1,0 +1,26 @@
+---
+title: "README"
+output: html_document
+---
+
+31. January 2016\n\n
+
+This repository contains the following files:
+
+* run_analysis.R
+
+* CodeBook.Rmd
+
+* meanByAcitivityandIDSummary.txt
+
+Run_analysis.R merges training and test data from the 'UCI HAR Dataset'. It then creates 
+a subset of this data and cleans it. Afterwards it summerizes the new dataset with the average of
+each variable for each activity and each subject. The result is saved as 'meanByAcitivityandIDSummary.txt'. 
+
+The CodeBook.Rmd describes the 'UCI HAR Dataset' and the the processing steps in 
+run_analysis.R. 
+
+meanByAcitivityandIDSummary.txt is a dataset of the avarages for each variable for
+each activity and subject.
+
+
